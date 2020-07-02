@@ -1,4 +1,3 @@
-<h2>The BorderRadiusSimulator was made for test border-radius in css3</h2>
+# Border-Radius Simulator
 
-<p>I created <i>this project</i> with the intention of learning
-</p>
+![simulator gif]('./img/simulator.gif')

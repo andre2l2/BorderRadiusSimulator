@@ -1,19 +1,25 @@
-document.addEventListener(`keydown`, (event) => {
-    
+document.addEventListener('keydown', press);
+
+function press(event) {
+    const input1 = document.querySelector('.input1').value;
+    const input2 = document.querySelector('.input2').value;
+    const input3 = document.querySelector('.input3').value;
+    const input4 = document.querySelector('.input4').value;
+
+    const simulator = document.querySelector('.simulator-over');
+    const result = document.querySelector('.result');
+
     if (event.key === 'Enter') {
-        
-        let input1 = document.getElementById(`input1`).value
-        let input2 = document.getElementById(`input2`).value
-        let input3 = document.getElementById(`input3`).value
-        let input4 = document.getElementById(`input4`).value
+    
+        simulator.style.borderRadius = `
+            ${input1}px 
+            ${input3}px 
+            ${input4}px 
+            ${input2}px
+        `
 
-        let generator = document.getElementById(`generatior`)
-        generator.style.borderRadius = `${input1}px ${input2}px ${input4}px ${input3}px`
-
-        let res = document.getElementById(`res`)
-
-        res.innerHTML = `- border-radius:${input1}px ${input2}px ${input4}px ${input3}px;`
+        result.innerHTML = `border-radius: ${input1}px ${input3}px ${input4}px ${input2}px;`
 
     }
 
-})
+}

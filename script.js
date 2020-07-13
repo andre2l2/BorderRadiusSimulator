@@ -19,7 +19,5 @@ function press(event) {
         `
 
         result.innerHTML = `border-radius: ${input1}px ${input3}px ${input4}px ${input2}px;`
-
     }
-
 }

@@ -81,4 +81,18 @@ input {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+header {
+  background-color: backGraudColor;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -5%);
+          transform: translate(-50%, -5%);
+}
+
+header h1 {
+  font-weight: 300;
+  color: #6d6d6d;
+}
 /*# sourceMappingURL=main.css.map */

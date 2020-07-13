@@ -1,0 +1,13 @@
+header {
+    background-color: backGraudColor;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+
+    
+    h1 {
+        font-weight: 300;
+        color: $textColor;
+    }
+}

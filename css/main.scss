@@ -1,2 +1,6 @@
-@import 'reset';
-@import 'simulator';
+$backGraudColor: rgba(128, 128, 128, 0.5);
+$textColor: rgb(109, 109, 109);
+
+@import './sass/reset';
+@import './sass/simulator';
+@import './sass/header';
